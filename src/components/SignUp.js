@@ -38,7 +38,7 @@ const SignUp = () => {
     e.preventDefault();
 
     try {
-      const apiUrl = "http://localhost:5800/api/auth/signup";
+      const apiUrl = "https://server-liard-eight.vercel.app/api/auth/signup";
       const response = await fetch(apiUrl, {
         method: "POST",
         headers: {
